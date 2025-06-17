@@ -1,0 +1,33 @@
+{
+  "name": "extract-text-html-bundle",
+  "version": "0.0.1",
+  "description": "bundle containing extract-text-html and all its dependencies",
+  "type": "module",
+  "main": "dist/extract-text-html-bundle.js",
+  "module": "dist/extract-text-html-bundle.js",
+  "exports": {
+    ".": "./dist/extract-text-html-bundle.js"
+  },
+  "types": "dist/extract-text-html.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "build:types": "tsc --emitDeclarationOnly",
+    "prepublishOnly": "npm run build:types && npm run build"
+  },
+  "keywords": [
+    "browser"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "extract-text-html": "github:rozek/extract-text-html"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "terser": "^5.19.4"
+  }
+}
