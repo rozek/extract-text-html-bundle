@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "description": "bundle containing extract-text-html and all its dependencies",
   "type": "module",
-  "main": "dist/extract-text-html-bundle.js",
-  "module": "dist/extract-text-html-bundle.js",
+  "main": "dist/extract-text-html-bundle.esm.js",
+  "module": "dist/extract-text-html-bundle.esm.js",
   "exports": {
-    ".": "./dist/extract-text-html-bundle.js"
+    ".": "./dist/extract-text-html-bundle.esm.js"
   },
-  "types": "dist/extract-text-html.d.ts",
+  "types": "dist/extract-text-html.esm.d.ts",
   "files": [
     "dist"
   ],
