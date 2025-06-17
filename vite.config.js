@@ -6,7 +6,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/extract-text-html-bundle.ts'),
       name: 'extract-text-html-bundle',
-      fileName: 'extract-text-html-bundle',
+      fileName: 'extract-text-html-bundle.esm',
       formats: ['es']
     },
     rollupOptions: { // make sure to bundle all dependencies
