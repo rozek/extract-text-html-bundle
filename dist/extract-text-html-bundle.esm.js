@@ -2077,4 +2077,4 @@ const extractText = (html, options = {}) => {
 export {
   extractText
 };
-//# sourceMappingURL=extract-text-html-bundle.js.map
+//# sourceMappingURL=extract-text-html-bundle.esm.js.map
